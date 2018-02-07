@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc
 
+# Healthd
+PRODUCT_PACKAGES += \
+    chargeonlymode
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
