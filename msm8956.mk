@@ -223,6 +223,13 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
     libandroid_net
 
+# Thermal
+PRODUCT_PACKAGES += \
+    thermal.msm8952
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \

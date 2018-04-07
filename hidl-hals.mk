@@ -70,6 +70,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service
+
 # OMX
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-impl
