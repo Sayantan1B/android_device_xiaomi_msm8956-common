@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
     libqdMetaData.system \
-    libgenlock \
+    libgenlock
 
 # Doze mode
 PRODUCT_PACKAGES += \
@@ -205,10 +205,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x06_ts.kl:system/usr/keylayout/ft5x06_ts.kl \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
-
-# Lights
-PRODUCT_PACKAGES += \
-    lights.msm8952
 
 # Media
 PRODUCT_COPY_FILES += \
