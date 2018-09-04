@@ -1,3 +1,11 @@
+# ANT+
+lib/com.qualcomm.qti.ant@1.0.so
+-lib/libantradio.so
+lib64/com.qualcomm.qti.ant@1.0.so
+-lib64/libantradio.so
+vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
+
 # ADSP
 lib/libadsprpc.so
 lib/libqvr_adsp_driver_skel.so
@@ -44,11 +52,13 @@ vendor/lib64/libaudioalsa.so
 vendor/lib64/libhwdaphal.so
 
 # Bluetooth
-vendor/bin/btnvtool
-vendor/bin/hci_qcomm_init
-vendor/bin/wcnss_filter
-vendor/lib/libbtnv.so
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 # Charger
 vendor/bin/hvdcp_opti

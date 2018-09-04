@@ -5,11 +5,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@2.0-service
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl \
-    android.hardware.bluetooth@1.0-service
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
