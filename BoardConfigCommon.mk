@@ -18,7 +18,6 @@
 VENDOR_PATH := device/xiaomi/msm8956-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
-INTERNAL_LOCAL_CLANG_EXCEPTION_PROJECTS := $(VENDOR_PATH)/
 
 # Architecture
 TARGET_ARCH := arm64
@@ -166,9 +165,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm
 BOARD_LIGHTS_VARIANT := aw2013
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Mokee Hardware
+# Lineage Hardware
 BOARD_HARDWARE_CLASS += \
-    $(VENDOR_PATH)/mkhw
+    $(VENDOR_PATH)/lineagehw
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
