@@ -1,14 +1,20 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "remote":      "github",  
+    "repository":  "Sayantan1B/Escrima_kernel_xiaomi_msm8956",
+    "target_path": "kernel/xiaomi/msm8956",
+    "branch":      "pie"
   },
   {
-    "repository": "android_kernel_xiaomi_msm8956",
-    "target_path": "kernel/xiaomi/msm8956"
+    "remote":      "github",  
+    "repository":  "Sayantan1B/android_vendor_xiaomi_msm8956-common",
+    "target_path": "kernel/xiaomi/msm8956",
+    "branch":      "mko-mr1"
   },
   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "remote":      "github",  
+    "repository":  "Sayantan1B/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-15.1"
   }
 ]
