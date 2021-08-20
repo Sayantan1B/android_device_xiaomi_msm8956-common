@@ -8,7 +8,7 @@
   {
     "remote":      "github",  
     "repository":  "Sayantan1B/android_vendor_xiaomi_msm8956-common",
-    "target_path": "kernel/xiaomi/msm8956",
+    "target_path": "vendor/xiaomi/msm8956-common",
     "branch":      "mko-mr1"
   },
   {
